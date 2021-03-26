@@ -23,7 +23,7 @@ public class MathUtility {
     //giai thừa tăng rất nhanh, 20! vừa khớp kiểu long
     //21! tràn long, bị sai nếu ráng lưu biến long
     //long: 10^18 18 con số 0
-    public static long getFactorial(int  n){
+/*    public static long getFactorial(int  n){
         if(n < 0 || n > 20)
             throw new IllegalArgumentException("Invalid argument. N must  be between 0..20");
         //CPU chạy đến đây thì sure n từ 0 đến 20
@@ -37,8 +37,20 @@ public class MathUtility {
             result*= i;
         
         return result;
+    }*/
+    public static long getFactorial(int  n){
+        if(n < 0 || n > 20)
+            throw new IllegalArgumentException("Invalid argument. N must  be between 0..20");
+        //CPU chạy đến đây thì sure n từ 0 đến 20
+        if(n==0 || n==1)
+            return 1;
+        
+        
+        //CPU chạy đến đây thì sure n = 2..20
+        return n * getFactorial(n - 1);//xong de quy
+        //n! = n * (n - 1)!
+        
     }
-    
 }
 
 
