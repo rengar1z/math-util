@@ -1,6 +1,5 @@
 # Welcome to Math Utility Repository
 [![MathUtil project | CI process included | © 2021 by pekeo](https://github.com/rengar1z/math-util/actions/workflows/mathutil-ci-actions.yml/badge.svg)](https://github.com/rengar1z/math-util/actions/workflows/mathutil-ci-actions.yml)
-# Welcome to Math Utility Repository
 ## You will find in this repo the library to support some math operations, e.g, compute  the
 factorial,...
 
