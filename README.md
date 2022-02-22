@@ -1,14 +1,15 @@
-## Welcome to Math Utility  Repository. This repo offers varius math methods  used as a helper  for your project.
+# Welcome to Math Utility Repository
 [![MathUtil project | CI process included | © 2021 by pekeo](https://github.com/rengar1z/math-util/actions/workflows/mathutil-ci-actions.yml/badge.svg)](https://github.com/rengar1z/math-util/actions/workflows/mathutil-ci-actions.yml)
-###  *_You will  find in this repo the following stuff:_*
-* .gitignore file itself to  demonstrate how to ask the Git tool to upload a file  or not
-* README.md file itself to  show the Homepage of this repo
-* All of match methos located in the scr\ folder to support for the match caculation in your project
-* (TBA...)
+# Welcome to Math Utility Repository
+## You will find in this repo the library to support some math operations, e.g, compute  the
+factorial,...
 
-#### Connect me via
-[My Facebook](https://www.facebook.com/profile.php?id=100074361426149)  
-	[My email](mailto: yuriboyka1108@gmail.com)
+## In this repo:
+* Java source code of MathUtility class
+* Java source code to demonstrate the TDD/DDT technique using JUnit framework
+* .gitgnore file to ask Git to indicate which one is uploaded
+* the README.md file to show to homepage if this repo
 
-© 2021 pe.keo 
+#### © 2022 pe.keo
+
 
